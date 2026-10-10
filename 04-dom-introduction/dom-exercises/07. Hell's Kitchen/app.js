@@ -13,9 +13,9 @@ function solve() {
          }
          for (const worker of workers) {
             let [workerName, salary] = worker.split(" ");
-            if (!objects[restaurantName].hasOwnProperty(workerName)) {
-               objects[restaurantName][workerName] = Number(salary);
-            }
+           
+             objects[restaurantName][workerName] = Number(salary);
+            
          }
       }
       let bestRestaurant = '';
