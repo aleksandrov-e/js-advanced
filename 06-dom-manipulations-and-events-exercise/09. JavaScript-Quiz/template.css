@@ -55,7 +55,6 @@ h1, h2, p {
   display: block;
 }
 #quizzie ul li {
-  display: inline-block;
   float: left;
   width: 49%;
   margin-right: 2%;
