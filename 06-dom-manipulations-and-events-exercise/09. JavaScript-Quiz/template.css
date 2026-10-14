@@ -100,3 +100,36 @@ h1, h2, p {
 #quizzie .answer-wrap:hover {
   background: DarkTurquoise;
 }
+
+#restart {
+  display: block;
+  width: 260px;
+  margin: 2em auto;
+  padding: 15px 25px;
+
+  background: Turquoise;
+  color: white;
+  border: none;
+  border-radius: 50px;
+
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease,
+              transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+#restart:hover {
+  background: DarkTurquoise;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#restart:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
