@@ -190,7 +190,7 @@ function createTournament(name) {
                 }
             }
 
-            leaderboard.sort((a, b) => b.points - a.points);
+            leaderboard.sort((a, b) => b.points - a.points)
 
             return leaderboard;
         }
